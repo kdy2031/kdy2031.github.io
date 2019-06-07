@@ -1,0 +1,327 @@
+
+<!DOCTYPE  html>
+      <head>
+         <title>page2</title>
+         <meta charset="utf-8"> <!--A_21761011_김동윤_--></meta>
+         <style type="text/css">
+         a:link{
+           color:#7401DF;
+           text-decoration: none;
+         }
+         a:visited{
+           color:#084B8A;
+         }
+         ul {list-style-type: none;}
+           [class*="c_"]{
+             float:left;
+             padding:10px;
+           }
+           /*너비가 600픽셀 미만인 스마트폰을 위한 기본 설정*/
+           [class*="c_"]{
+             width:100%;
+           }
+           /*너비가 600픽셀 이상인 테블릿 위한 기본 설정*/
+           @media only screen and (min-width: 600px){
+             .c_m_1 {width:8.33%;}
+             .c_m_2 {width:16.66%;}
+             .c_m_3 {width:25%;}
+             .c_m_4 {width:33.33%;}
+             .c_m_5 {width:41.66%;}
+             .c_m_6 {width:50%;}
+             .c_m_7 {width:58.33%;}
+             .c_m_8 {width:66.66%;}
+             .c_m_9 {width:75%;}
+             .c_m_10 {width:83.33%;}
+             .c_m_11 {width:91.66%;}
+             .c_m_12 {width:100%;}
+           }
+           /*너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등*/
+           @media only screen and (min-width:768px){
+             .c_1{width:8.33%;}
+             .c_2{width:16.66%;}
+             .c_3{width:25%;}
+             .c_4{width:33.33%;}
+             .c_5{width:41.66%;}
+             .c_6{width:50%;}
+             .c_7{width:58.33%;}
+             .c_8{width:66.66%;}
+             .c_9{width:75%;}
+             .c_10{width:83.33%;}
+             .c_11{width:91.66%;}
+             .c_12{width:100%;}
+
+        th{
+          border-solid 3px #000000;
+        }
+
+         #menu li{
+                 margin-top:5px;
+                 display:inline;
+               }
+
+         #music{
+         float: right;
+               }
+
+          body{
+            background-color: white;
+          }
+            #header{
+               background-color: white;
+            }
+            #main_visual{
+               background-color: #760f00;
+            }
+            #title1{
+               color: white;
+            }
+            #title2{
+               color: #cfc91d;
+            }
+            #navi_list{
+               position: relative;
+               overflow: auto;
+            }
+            #navi_list li{
+               float: left;
+               list-style: none;
+               color: white;
+               padding-left: 10px;
+               padding-right: 10px;
+            }
+            #header_title{
+              float: left;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+            #navi_list{
+              float: right;
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+            #header{
+              position: relative;
+              overflow: auto;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+            #main_visual{
+              background-image: url("image/christmas.png");
+              background-repeat: no-repeat;
+              /*배경 그림 반복 : 반복 없음*/
+              background-size: 100%;
+              /*배경 그림 크기 : 가로 꽉차게;*/
+              background-position: 50% 50%;
+              /*배경 그림 위치 : 중간 중간*/
+              text-align: center;
+              padding: 100px;
+            }
+            #visual_title1{
+              color: white;
+              font-size:28px;
+            }
+            #visual_title2{
+              color: white;
+              font-size: 50px;
+              margin: 0px;
+              letter-spacing: 10px;
+
+            }
+            #visual_title3{
+              color: white;
+              font-size: 18px;
+            }
+            #visual_image{
+              margin-top: 200px;
+            }
+
+            .content_title{
+              text-align: center;
+              color: #688A08;
+              font-size: 32px;
+              margin-top: 95px;
+              margin-bottom: 95px;
+
+            }
+            .content_detail{
+              text-align: center;
+              font-size: 16px;
+              line-height: 25px;
+              margin-top: 80px;
+              margin-bottom: 80px;
+
+            }
+            #content1 ul{
+              position: relative;
+              overflow: auto;
+              /*float:left 이탈방지*/
+            }
+
+            #content1 ul li{
+              float: left;
+              width: 18%;
+              text-align: center;
+              margin: 0px;
+              list-style: none;
+              border-right: solid 1px #dddddd;
+              /*실제 block의 넓이는 width+padding+border+margine*/
+              padding: 3%;
+              /*3%,18%,3%,1px <= 25%*/
+            }
+            #content1 ul li:last-child{
+              border-style: none;
+            }
+            #content1 ul li dl dd{
+              margin: 0px;
+            }
+            #content1 ul li dl dt{
+              margin-top: 25px;
+              margin-bottom: 25px;
+            }
+            .dd_class{
+              margin: 0px;
+              text-align: left;
+            }
+            #content2 ul{
+              position: relative;
+              overflow: auto;
+              /*float:left 이탈 방지*/
+              padding: 0px;
+              margin: 0px;
+            }
+            #content2 ul li{
+              float: left;
+              list-style: none;
+              width: 25%;
+            }
+            #content2 ul li img{
+              width: 100%;
+              display: block;
+            }
+            body{
+              margin: 10px;
+            }
+            .dd_class h3{
+              text-align: center;
+            }
+             #index_navigation a{
+         color: #333;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+         }
+       #index_navigation a:hover{
+        color: red;
+        text-decoration: underline;
+         }
+       #index_navigation a:visited{
+        color: blue;
+        }
+       #index_navigation{
+       text-align: center;
+        }
+      #   #index_navigation a{
+         color: #333;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+         }
+       #index_navigation a:hover{
+        color: red;
+        text-decoration: underline;
+         }
+       #index_navigation a:visited{
+        color: blue;
+        }
+       #index_navigation{
+       text-align: center;
+        }
+      #index_navigation h1{
+       font-size: 25px;
+       }index_navigation h1{
+       font-size: 25px;
+       }
+
+       }
+       #n_title{
+        padding-top: 200px;
+       }
+
+         </style>
+     </head>
+     <body>
+       <div id="music"> <audio src="grace.mp3" autoplay controls loop> </audio> </div>
+
+
+       <ul id="menu">
+         <li> <a href="main.html">Home</a> |</li>
+         <li> <a href="page1.html">Page 1</a> |</li>
+         <li> <a href="page2.html">Page 2</a> |</li>
+         <li> <a href="page3.html">Page 3</a> |</li>
+         <li> <a href="sub.html">NCT IN THE HOUSE</a></li>
+       </ul>
+
+            <div id="content1">
+              <h3 class="content_title">Behind the scenes</h3>
+              <p class="content_detail">
+              <br><br>
+              </p>
+              <ul>
+<br><br><br><br><br><br>
+                <li>
+                  <img src="baby.png" style="width: 100%;">
+                  <dl>
+                    <dt></dt>
+
+                    <dd class="dd_class">
+                      <h3>BABY DONG</h3>
+                     평소 앨범을 볼 일이 없었는데, 이번 과제를 통해 오랜만에 보게 되는 계기가 되었다.
+                     물론 앨범에는 유치원 시절 뿐 아니라 초등학교, 중학교, 고등학교 시절이 다 있었지만 나의 관한 이야기로는 유치원 시절을 풀어 보고 싶었다.
+                     왜냐면 그때가 제일 귀여웠던 거 같다. 시기별로 가장 '무엇~' 했던 것은 다르지만 이번엔 귀여운 걸 보여주고 싶었다.
+                     다른 시기도 짧게 글로 풀어보자면 초등학교 때는 가장 용감했고, 중학교 때는 가장 행복했다, 마지막 고등학교는 가장 힘들었던 시기여서 별로 사진은 많지 않다.
+
+                    </dd>
+
+                  </dl>
+                </li>
+
+                <li>
+                     <img src="when.png" style="width: 100%;">
+                  <dl>
+                    <dt></dt>
+                    <dd class="dd_class">
+                    <h3>WHEN I LIVE THERE / 21</h3>
+                     21살, 혼자 호주로 떠났던 날.<br>
+                     그 날은 잊을 수 없다. 아침에도 부모님과 티격태격하며 나왔고 공항에서 출국 심사 마치고 다른 터미널로 이동하는 그 순간 너무 무서워서 눈물이 났다. 이제 진짜
+                     혼자라서. 처음 겪어보는 일이라 너무 무서웠다. 하지만 난 강하니까 금방 추스리고 비행기에서 또 울었다 ㅋㅋ
+                     그렇게 호주에 도착한 날, 언제 울었냐는 듯 너무 신기하고 기뻤다. 호주에서 많은 것을 경험하고 느꼈지만 '다시 할래?' 하면 좀 생각해볼 것이다.
+                     왜냐면 너무 힘들었으니까.
+                    </dd>
+                  </dl>
+
+
+                </li>
+
+                <li>
+
+                  <dl>
+                    <dt></dt>
+                    <dd class="dd_class">
+                      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <h2>BEHIND THE SCENECS</h2>
+
+                    </dd>
+                  </dl>
+
+
+                </li>
+
+
+
+
+                   </ul>
+                 </div>
+     </body>
+</html>
